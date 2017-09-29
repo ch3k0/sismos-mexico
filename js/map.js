@@ -17,7 +17,7 @@ $(document).ready(function() {
       maxZoom: 10,
       zoom: 5.5
     })
-    .addLayer(new L.TileLayer("https://api.mapbox.com/styles/v1/gobmx15/cj866lwt02bpi2qpbpvl6dhuv/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZ29ibXgxNSIsImEiOiJjaWZpaTl2eGtibDBjcnNtN3NqdW1wN25xIn0.yxAJmrmgXO_IaXuI1lckYA"));
+    .addLayer(new L.TileLayer("https://api.mapbox.com/styles/v1/gobmx15/cj869w4w917zp2srtvgh4u0k0/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZ29ibXgxNSIsImEiOiJjaWZpaTl2eGtibDBjcnNtN3NqdW1wN25xIn0.yxAJmrmgXO_IaXuI1lckYA"));
 
   /* Initialize the SVG layer */
   map._initPathRoot();
