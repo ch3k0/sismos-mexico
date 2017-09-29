@@ -1,0 +1,2695 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-105, 20]
+    },
+    "properties": {
+      "magnitud": 7.4,
+      "fecha": "20/01/1900",
+      "hora": "6:33:30",
+      "profundidad": 33,
+      "fechaFormateada": "1900-01-20T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-105, 20]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "16/05/1900",
+      "hora": "20:12:00",
+      "profundidad": 33,
+      "fechaFormateada": "1900-05-16T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-110, 25]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "03/05/1901",
+      "hora": "10:45:00",
+      "profundidad": 0,
+      "fechaFormateada": "1901-05-03T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-110, 26]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "12/09/1901",
+      "hora": "2:17:00",
+      "profundidad": 0,
+      "fechaFormateada": "1901-09-12T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.72, 17.62]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "16/01/1902",
+      "hora": "23:19:00",
+      "profundidad": 0,
+      "fechaFormateada": "1902-01-16T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91.5, 14.9]
+    },
+    "properties": {
+      "magnitud": 7.5,
+      "fecha": "19/04/1902",
+      "hora": "2:23:00",
+      "profundidad": 25,
+      "fechaFormateada": "1902-04-19T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.5, 16.5]
+    },
+    "properties": {
+      "magnitud": 7.7,
+      "fecha": "23/09/1902",
+      "hora": "20:18:00",
+      "profundidad": 25,
+      "fechaFormateada": "1902-09-23T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-114, 29]
+    },
+    "properties": {
+      "magnitud": 7.1,
+      "fecha": "12/12/1902",
+      "hora": "23:10:00",
+      "profundidad": 0,
+      "fechaFormateada": "1902-12-12T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-93, 15]
+    },
+    "properties": {
+      "magnitud": 7.6,
+      "fecha": "14/01/1903",
+      "hora": "1:47:36",
+      "profundidad": 33,
+      "fechaFormateada": "1903-01-14T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-110, 20]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "24/10/1905",
+      "hora": "17:40:00",
+      "profundidad": 33,
+      "fechaFormateada": "1905-10-24T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-113, 17]
+    },
+    "properties": {
+      "magnitud": 7.1,
+      "fecha": "17/12/1905",
+      "hora": "5:27:00",
+      "profundidad": 0,
+      "fechaFormateada": "1905-12-17T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-110, 20]
+    },
+    "properties": {
+      "magnitud": 7.1,
+      "fecha": "04/10/1906",
+      "hora": "21:18:00",
+      "profundidad": 0,
+      "fechaFormateada": "1906-10-04T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.2, 16.7]
+    },
+    "properties": {
+      "magnitud": 7.6,
+      "fecha": "15/04/1907",
+      "hora": "6:08:06",
+      "profundidad": 33,
+      "fechaFormateada": "1907-04-15T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-112.5, 28]
+    },
+    "properties": {
+      "magnitud": 7.1,
+      "fecha": "16/10/1907",
+      "hora": "14:57:18",
+      "profundidad": 10,
+      "fechaFormateada": "1907-10-16T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.2, 16.7]
+    },
+    "properties": {
+      "magnitud": 7.5,
+      "fecha": "26/03/1908",
+      "hora": "23:03:30",
+      "profundidad": 33,
+      "fechaFormateada": "1908-03-26T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-101, 17]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "27/03/1908",
+      "hora": "3:45:30",
+      "profundidad": 33,
+      "fechaFormateada": "1908-03-27T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-102, 18]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "13/10/1908",
+      "hora": "5:06:00",
+      "profundidad": 0,
+      "fechaFormateada": "1908-10-13T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.72, 16.53]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "09/05/1909",
+      "hora": "11:17:20",
+      "profundidad": 0,
+      "fechaFormateada": "1909-05-09T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.9, 16.8]
+    },
+    "properties": {
+      "magnitud": 7.2,
+      "fecha": "30/07/1909",
+      "hora": "10:51:54",
+      "profundidad": 33,
+      "fechaFormateada": "1909-07-30T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.45, 16.62]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "31/07/1909",
+      "hora": "18:43:10",
+      "profundidad": 33,
+      "fechaFormateada": "1909-07-31T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-101.2, 17]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "31/10/1909",
+      "hora": "10:23:00",
+      "profundidad": 33,
+      "fechaFormateada": "1909-10-31T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.2, 16.7]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "31/05/1910",
+      "hora": "4:19:19",
+      "profundidad": 33,
+      "fechaFormateada": "1910-05-31T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-95.9, 16.77]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "24/09/1910",
+      "hora": "3:32:42",
+      "profundidad": 80,
+      "fechaFormateada": "1910-09-24T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.6, 17.8]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "02/03/1911",
+      "hora": "20:41:55",
+      "profundidad": 80,
+      "fechaFormateada": "1911-03-02T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-102.5, 17.5]
+    },
+    "properties": {
+      "magnitud": 7.6,
+      "fecha": "06/07/1911",
+      "hora": "11:02:42",
+      "profundidad": 33,
+      "fechaFormateada": "1911-07-06T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-96, 17]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "27/08/1911",
+      "hora": "10:59:18",
+      "profundidad": 100,
+      "fechaFormateada": "1911-08-27T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-100.7, 16.9]
+    },
+    "properties": {
+      "magnitud": 7.5,
+      "fecha": "16/12/1911",
+      "hora": "19:14:18",
+      "profundidad": 50,
+      "fechaFormateada": "1911-12-16T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-93, 15.5]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "12/09/1912",
+      "hora": "8:32:24",
+      "profundidad": 0,
+      "fechaFormateada": "1912-09-12T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.83, 19.93]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "19/11/1912",
+      "hora": "13:55:07",
+      "profundidad": 33,
+      "fechaFormateada": "1912-11-19T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92, 17]
+    },
+    "properties": {
+      "magnitud": 7.2,
+      "fecha": "30/03/1914",
+      "hora": "0:41:18",
+      "profundidad": 150,
+      "fechaFormateada": "1914-03-30T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-89, 14]
+    },
+    "properties": {
+      "magnitud": 7.4,
+      "fecha": "09/07/1915",
+      "hora": "1:20:48",
+      "profundidad": 80,
+      "fechaFormateada": "1915-07-09T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-115, 32]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "21/11/1915",
+      "hora": "0:13:22",
+      "profundidad": 10,
+      "fechaFormateada": "1915-11-21T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-95, 17.5]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "06/02/1916",
+      "hora": "13:59:24",
+      "profundidad": 150,
+      "fechaFormateada": "1916-02-06T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-100, 18]
+    },
+    "properties": {
+      "magnitud": 6.8,
+      "fecha": "21/11/1916",
+      "hora": "6:25:24",
+      "profundidad": 33,
+      "fechaFormateada": "1916-11-21T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97, 15]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "29/12/1917",
+      "hora": "22:50:20",
+      "profundidad": 33,
+      "fechaFormateada": "1917-12-29T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-111, 27]
+    },
+    "properties": {
+      "magnitud": 6.8,
+      "fecha": "23/05/1918",
+      "hora": "11:57:30",
+      "profundidad": 0,
+      "fechaFormateada": "1918-05-23T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-103.3, 18.7]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "06/07/1918",
+      "hora": "21:27:06",
+      "profundidad": 33,
+      "fechaFormateada": "1918-07-06T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91.75, 14.5]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "17/04/1919",
+      "hora": "20:53:03",
+      "profundidad": 0,
+      "fechaFormateada": "1919-04-17T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-96.97, 19.27]
+    },
+    "properties": {
+      "magnitud": 6.4,
+      "fecha": "01/04/1920",
+      "hora": "4:21:56",
+      "profundidad": 10,
+      "fechaFormateada": "1920-04-01T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97, 19]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "19/04/1920",
+      "hora": "21:06:36",
+      "profundidad": 110,
+      "fechaFormateada": "1920-04-19T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91, 15]
+    },
+    "properties": {
+      "magnitud": 7.4,
+      "fecha": "02/04/1921",
+      "hora": "8:22:44",
+      "profundidad": 120,
+      "fechaFormateada": "1921-04-02T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-103.3, 18.2]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "21/04/1921",
+      "hora": "20:01:36",
+      "profundidad": 33,
+      "fechaFormateada": "1921-04-21T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-108.5, 24]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "06/12/1922",
+      "hora": "4:47:44",
+      "profundidad": 0,
+      "fechaFormateada": "1922-12-06T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-102, 19]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "08/07/1925",
+      "hora": "7:47:48",
+      "profundidad": 100,
+      "fechaFormateada": "1925-07-08T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.5, 15.5]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "12/10/1925",
+      "hora": "14:14:42",
+      "profundidad": 0,
+      "fechaFormateada": "1925-10-12T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-107, 18]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "16/11/1925",
+      "hora": "11:54:54",
+      "profundidad": 0,
+      "fechaFormateada": "1925-11-16T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-96.1, 15.67]
+    },
+    "properties": {
+      "magnitud": 7.5,
+      "fecha": "22/03/1928",
+      "hora": "4:17:30",
+      "profundidad": 33,
+      "fechaFormateada": "1928-03-22T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.61, 16.83]
+    },
+    "properties": {
+      "magnitud": 7.4,
+      "fecha": "08/04/1928",
+      "hora": "18:28:17",
+      "profundidad": 33,
+      "fechaFormateada": "1928-04-08T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-96.44, 17.69]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "17/04/1928",
+      "hora": "3:25:27",
+      "profundidad": 115,
+      "fechaFormateada": "1928-04-17T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-96.7, 16.33]
+    },
+    "properties": {
+      "magnitud": 7.6,
+      "fecha": "17/06/1928",
+      "hora": "3:19:28",
+      "profundidad": 33,
+      "fechaFormateada": "1928-06-17T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.3, 16.3]
+    },
+    "properties": {
+      "magnitud": 7.5,
+      "fecha": "10/09/1928",
+      "hora": "3:01:08",
+      "profundidad": 33,
+      "fechaFormateada": "1928-09-10T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.99, 18.26]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "02/10/1928",
+      "hora": "4:39:37",
+      "profundidad": 84,
+      "fechaFormateada": "1928-10-02T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-96.87, 16.34]
+    },
+    "properties": {
+      "magnitud": 7.8,
+      "fecha": "15/01/1931",
+      "hora": "1:50:40",
+      "profundidad": 40,
+      "fechaFormateada": "1931-01-15T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-107, 19]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "01/02/1931",
+      "hora": "9:49:02",
+      "profundidad": 0,
+      "fechaFormateada": "1931-02-01T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-104.42, 19.57]
+    },
+    "properties": {
+      "magnitud": 8.2,
+      "fecha": "06/03/1932",
+      "hora": "10:36:52",
+      "profundidad": 33,
+      "fechaFormateada": "1932-03-06T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-103.5, 19.5]
+    },
+    "properties": {
+      "magnitud": 7.8,
+      "fecha": "18/06/1932",
+      "hora": "10:12:10",
+      "profundidad": 33,
+      "fechaFormateada": "1932-06-18T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-104.68, 18.74]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "22/06/1932",
+      "hora": "12:59:28",
+      "profundidad": 33,
+      "fechaFormateada": "1932-06-22T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-113, 29]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "07/07/1932",
+      "hora": "16:15:51",
+      "profundidad": 0,
+      "fechaFormateada": "1932-07-07T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-104, 19]
+    },
+    "properties": {
+      "magnitud": 6.8,
+      "fecha": "12/07/1932",
+      "hora": "16:22:09",
+      "profundidad": 33,
+      "fechaFormateada": "1932-07-12T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-103.93, 18.87]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "25/07/1932",
+      "hora": "9:12:46",
+      "profundidad": 33,
+      "fechaFormateada": "1932-07-25T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-110, 26.5]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "07/12/1932",
+      "hora": "19:24:10",
+      "profundidad": 0,
+      "fechaFormateada": "1932-12-07T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-101, 17.5]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "05/08/1933",
+      "hora": "10:33:40",
+      "profundidad": 33,
+      "fechaFormateada": "1933-08-05T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-105, 19.5]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "04/09/1933",
+      "hora": "3:58:17",
+      "profundidad": 33,
+      "fechaFormateada": "1933-09-04T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-100, 17]
+    },
+    "properties": {
+      "magnitud": 6.8,
+      "fecha": "28/01/1934",
+      "hora": "19:10:03",
+      "profundidad": 33,
+      "fechaFormateada": "1934-01-28T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-105.31, 19]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "30/11/1934",
+      "hora": "2:05:16",
+      "profundidad": 33,
+      "fechaFormateada": "1934-11-30T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-114.75, 32]
+    },
+    "properties": {
+      "magnitud": 7.1,
+      "fecha": "31/12/1934",
+      "hora": "18:45:45",
+      "profundidad": 0,
+      "fechaFormateada": "1934-12-31T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-103.5, 18.75]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "29/06/1935",
+      "hora": "6:48:54",
+      "profundidad": 33,
+      "fechaFormateada": "1935-06-29T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.5, 14.75]
+    },
+    "properties": {
+      "magnitud": 7.3,
+      "fecha": "14/12/1935",
+      "hora": "22:05:17",
+      "profundidad": 0,
+      "fechaFormateada": "1935-12-14T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.17, 17.78]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "10/06/1937",
+      "hora": "9:47:18",
+      "profundidad": 100,
+      "fechaFormateada": "1937-06-10T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-96.08, 18.45]
+    },
+    "properties": {
+      "magnitud": 7.3,
+      "fecha": "26/07/1937",
+      "hora": "3:47:13",
+      "profundidad": 85,
+      "fechaFormateada": "1937-07-26T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98.07, 17.1]
+    },
+    "properties": {
+      "magnitud": 7.4,
+      "fecha": "23/12/1937",
+      "hora": "13:17:58",
+      "profundidad": 33,
+      "fechaFormateada": "1937-12-23T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.8, 15.68]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "25/12/1937",
+      "hora": "6:03:25",
+      "profundidad": 33,
+      "fechaFormateada": "1937-12-25T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-113.5, 29.5]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "05/02/1939",
+      "hora": "13:14:47",
+      "profundidad": 0,
+      "fechaFormateada": "1939-02-05T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91.5, 14.5]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "12/05/1939",
+      "hora": "8:30:07",
+      "profundidad": 0,
+      "fechaFormateada": "1939-05-12T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-115.5, 32.7]
+    },
+    "properties": {
+      "magnitud": 7.1,
+      "fecha": "19/05/1940",
+      "hora": "4:36:41",
+      "profundidad": 0,
+      "fechaFormateada": "1940-05-19T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91.5, 14.25]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "27/07/1940",
+      "hora": "13:32:30",
+      "profundidad": 90,
+      "fechaFormateada": "1940-07-27T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-102.94, 18.85]
+    },
+    "properties": {
+      "magnitud": 7.6,
+      "fecha": "15/04/1941",
+      "hora": "19:09:51",
+      "profundidad": 33,
+      "fechaFormateada": "1941-04-15T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91.3, 14.8]
+    },
+    "properties": {
+      "magnitud": 7.9,
+      "fecha": "08/06/1942",
+      "hora": "23:36:59",
+      "profundidad": 50,
+      "fechaFormateada": "1942-06-08T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-101, 19]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "20/06/1942",
+      "hora": "10:02:07",
+      "profundidad": 100,
+      "fechaFormateada": "1942-06-20T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-94.25, 17.25]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "11/12/1942",
+      "hora": "4:55:34",
+      "profundidad": 90,
+      "fechaFormateada": "1942-12-11T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-101.1, 17.6]
+    },
+    "properties": {
+      "magnitud": 7.4,
+      "fecha": "22/02/1943",
+      "hora": "9:20:45",
+      "profundidad": 33,
+      "fechaFormateada": "1943-02-22T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91.5, 14.25]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "31/08/1943",
+      "hora": "16:10:40",
+      "profundidad": 80,
+      "fechaFormateada": "1943-08-31T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91.5, 15]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "23/09/1943",
+      "hora": "15:00:44",
+      "profundidad": 110,
+      "fechaFormateada": "1943-09-23T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.5, 15]
+    },
+    "properties": {
+      "magnitud": 7.1,
+      "fecha": "28/06/1944",
+      "hora": "7:58:54",
+      "profundidad": 0,
+      "fechaFormateada": "1944-06-28T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-101, 17]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "01/10/1944",
+      "hora": "20:09:52",
+      "profundidad": 33,
+      "fechaFormateada": "1944-10-01T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-111, 27]
+    },
+    "properties": {
+      "magnitud": 6.8,
+      "fecha": "27/06/1945",
+      "hora": "13:08:20",
+      "profundidad": 0,
+      "fechaFormateada": "1945-06-27T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-115, 17]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "30/06/1945",
+      "hora": "5:31:18",
+      "profundidad": 0,
+      "fechaFormateada": "1945-06-30T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91.25, 15]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "27/10/1945",
+      "hora": "11:24:41",
+      "profundidad": 200,
+      "fechaFormateada": "1945-10-27T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.65, 18.32]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "10/11/1945",
+      "hora": "16:53:02",
+      "profundidad": 95,
+      "fechaFormateada": "1945-11-10T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-94, 16.5]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "06/07/1946",
+      "hora": "4:13:20",
+      "profundidad": 100,
+      "fechaFormateada": "1946-07-06T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-94.5, 17]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "07/11/1946",
+      "hora": "4:46:42",
+      "profundidad": 130,
+      "fechaFormateada": "1946-11-07T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-106.5, 22]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "12/04/1948",
+      "hora": "0:22:48",
+      "profundidad": 0,
+      "fechaFormateada": "1948-04-12T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98, 17]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "01/06/1948",
+      "hora": "17:23:36",
+      "profundidad": 80,
+      "fechaFormateada": "1948-06-01T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98, 17]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "01/06/1948",
+      "hora": "17:25:58",
+      "profundidad": 80,
+      "fechaFormateada": "1948-06-01T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-95.25, 17.75]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "08/11/1948",
+      "hora": "10:36:19",
+      "profundidad": 100,
+      "fechaFormateada": "1948-11-08T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-107, 19]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "29/09/1950",
+      "hora": "6:32:20",
+      "profundidad": 60,
+      "fechaFormateada": "1950-09-29T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-106, 17.73]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "21/10/1950",
+      "hora": "9:42:58",
+      "profundidad": 0,
+      "fechaFormateada": "1950-10-21T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91.8, 14.3]
+    },
+    "properties": {
+      "magnitud": 7.2,
+      "fecha": "23/10/1950",
+      "hora": "16:13:20",
+      "profundidad": 33,
+      "fechaFormateada": "1950-10-23T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-100.5, 17.5]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "17/11/1950",
+      "hora": "19:28:23",
+      "profundidad": 0,
+      "fechaFormateada": "1950-11-17T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98.12, 17.22]
+    },
+    "properties": {
+      "magnitud": 7.2,
+      "fecha": "14/12/1950",
+      "hora": "14:15:50",
+      "profundidad": 33,
+      "fechaFormateada": "1950-12-14T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-94.5, 17]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "12/12/1951",
+      "hora": "1:37:34",
+      "profundidad": 100,
+      "fechaFormateada": "1951-12-12T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98.7, 16.9]
+    },
+    "properties": {
+      "magnitud": 6.8,
+      "fecha": "28/12/1951",
+      "hora": "9:20:26",
+      "profundidad": 33,
+      "fechaFormateada": "1951-12-28T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98.85, 16.4]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "12/01/1953",
+      "hora": "15:18:33",
+      "profundidad": 0,
+      "fechaFormateada": "1953-01-12T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91.4, 14.1]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "24/08/1953",
+      "hora": "13:21:02",
+      "profundidad": 96,
+      "fechaFormateada": "1953-08-24T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-113, 28.5]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "29/04/1954",
+      "hora": "11:34:34",
+      "profundidad": 0,
+      "fechaFormateada": "1954-04-29T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-110, 25]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "04/05/1955",
+      "hora": "15:09:15",
+      "profundidad": 0,
+      "fechaFormateada": "1955-05-04T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91, 14]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "28/08/1955",
+      "hora": "20:13:30",
+      "profundidad": 60,
+      "fechaFormateada": "1955-08-28T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.5, 15.5]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "26/09/1955",
+      "hora": "8:28:20",
+      "profundidad": 200,
+      "fechaFormateada": "1955-09-26T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-115.8, 31.9]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "02/09/1956",
+      "hora": "14:32:39",
+      "profundidad": 0,
+      "fechaFormateada": "1956-09-02T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.1, 17.11]
+    },
+    "properties": {
+      "magnitud": 7.8,
+      "fecha": "28/07/1957",
+      "hora": "8:40:10",
+      "profundidad": 33,
+      "fechaFormateada": "1957-07-28T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98.25, 15.52]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "04/10/1957",
+      "hora": "5:12:09",
+      "profundidad": 0,
+      "fechaFormateada": "1957-10-04T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.15, 17.72]
+    },
+    "properties": {
+      "magnitud": 6.8,
+      "fecha": "24/05/1959",
+      "hora": "19:17:43",
+      "profundidad": 80,
+      "fechaFormateada": "1959-05-24T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-94.43, 18.26]
+    },
+    "properties": {
+      "magnitud": 6.4,
+      "fecha": "26/08/1959",
+      "hora": "8:25:31",
+      "profundidad": 21,
+      "fechaFormateada": "1959-08-26T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-94.5, 17]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "13/07/1960",
+      "hora": "16:23:56",
+      "profundidad": 150,
+      "fechaFormateada": "1960-07-13T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.66, 13.5]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "09/01/1961",
+      "hora": "18:50:34",
+      "profundidad": 25,
+      "fechaFormateada": "1961-01-09T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.57, 17.12]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "19/05/1962",
+      "hora": "14:58:10",
+      "profundidad": 33,
+      "fechaFormateada": "1962-05-19T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.58, 17.25]
+    },
+    "properties": {
+      "magnitud": 7.1,
+      "fecha": "05/11/1962",
+      "hora": "14:11:57",
+      "profundidad": 33,
+      "fechaFormateada": "1962-11-05T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-113.74, 29.68]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "18/11/1963",
+      "hora": "14:38:26",
+      "profundidad": 7,
+      "fechaFormateada": "1963-11-18T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-110.28, 26.32]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "07/06/1964",
+      "hora": "2:14:37",
+      "profundidad": 10,
+      "fechaFormateada": "1964-06-07T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-100.77, 18.03]
+    },
+    "properties": {
+      "magnitud": 7.2,
+      "fecha": "07/06/1964",
+      "hora": "7:22:13",
+      "profundidad": 55,
+      "fechaFormateada": "1964-06-07T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-95.877, 16.178]
+    },
+    "properties": {
+      "magnitud": 7.4,
+      "fecha": "23/08/1965",
+      "hora": "19:46:02",
+      "profundidad": 12,
+      "fechaFormateada": "1965-08-23T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-100.07, 17.249]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "12/09/1965",
+      "hora": "6:07:51",
+      "profundidad": 65,
+      "fechaFormateada": "1965-09-12T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-100.256, 17.508]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "07/02/1968",
+      "hora": "3:44:52",
+      "profundidad": 62,
+      "fechaFormateada": "1968-02-07T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.8, 16.6]
+    },
+    "properties": {
+      "magnitud": 7.3,
+      "fecha": "08/02/1968",
+      "hora": "14:06:37",
+      "profundidad": 16,
+      "fechaFormateada": "1968-02-08T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-94.775, 15.231]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "28/11/1968",
+      "hora": "10:36:08",
+      "profundidad": 23,
+      "fechaFormateada": "1968-11-28T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-107.99, 23.105]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "11/01/1969",
+      "hora": "11:08:22",
+      "profundidad": 10,
+      "fechaFormateada": "1969-01-11T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-109.24, 25.25]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "17/08/1969",
+      "hora": "20:13:09",
+      "profundidad": 15,
+      "fechaFormateada": "1969-08-17T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-109.55, 25.12]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "17/08/1969",
+      "hora": "20:15:00",
+      "profundidad": 15,
+      "fechaFormateada": "1969-08-17T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.493, 15.524]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "02/04/1970",
+      "hora": "5:08:50",
+      "profundidad": 21,
+      "fechaFormateada": "1970-04-02T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.683, 14.463]
+    },
+    "properties": {
+      "magnitud": 7.3,
+      "fecha": "29/04/1970",
+      "hora": "14:01:34",
+      "profundidad": 44,
+      "fechaFormateada": "1970-04-29T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-93.26, 14.608]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "30/04/1970",
+      "hora": "8:32:58",
+      "profundidad": 22,
+      "fechaFormateada": "1970-04-30T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-110.8, 26.88]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "30/09/1971",
+      "hora": "8:18:00",
+      "profundidad": 14,
+      "fechaFormateada": "1971-09-30T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-106.756, 18.7]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "20/10/1972",
+      "hora": "8:17:46",
+      "profundidad": 10,
+      "fechaFormateada": "1972-10-20T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-95.04, 15.541]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "13/11/1972",
+      "hora": "4:43:45",
+      "profundidad": 14,
+      "fechaFormateada": "1972-11-13T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-103.019, 18.412]
+    },
+    "properties": {
+      "magnitud": 7.6,
+      "fecha": "30/01/1973",
+      "hora": "21:01:12",
+      "profundidad": 24,
+      "fechaFormateada": "1973-01-30T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-96.551, 18.248]
+    },
+    "properties": {
+      "magnitud": 7.3,
+      "fecha": "28/08/1973",
+      "hora": "9:50:41",
+      "profundidad": 82,
+      "fechaFormateada": "1973-08-28T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-113.468, 29.304]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "07/08/1975",
+      "hora": "9:37:25",
+      "profundidad": 5,
+      "fechaFormateada": "1975-08-07T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-89.198, 15.262]
+    },
+    "properties": {
+      "magnitud": 7.5,
+      "fecha": "02/04/1976",
+      "hora": "9:01:46",
+      "profundidad": 13,
+      "fechaFormateada": "1976-04-02T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-100.682, 17.406]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "06/07/1976",
+      "hora": "14:26:42",
+      "profundidad": 57,
+      "fechaFormateada": "1976-07-06T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.745, 17.036]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "19/03/1978",
+      "hora": "1:39:16",
+      "profundidad": 44,
+      "fechaFormateada": "1978-03-19T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-87.287, 12.759]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "31/05/1978",
+      "hora": "1:07:21",
+      "profundidad": 49,
+      "fechaFormateada": "1978-05-31T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-96.586, 16.013]
+    },
+    "properties": {
+      "magnitud": 7.6,
+      "fecha": "29/11/1978",
+      "hora": "19:52:50",
+      "profundidad": 23,
+      "fechaFormateada": "1978-11-29T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-100.895, 17.397]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "26/01/1979",
+      "hora": "10:04:31",
+      "profundidad": 23,
+      "fechaFormateada": "1979-01-26T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-101.263, 17.75]
+    },
+    "properties": {
+      "magnitud": 7.4,
+      "fecha": "14/03/1979",
+      "hora": "11:07:15",
+      "profundidad": 25,
+      "fechaFormateada": "1979-03-14T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-94.605, 17.014]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "22/06/1979",
+      "hora": "6:30:57",
+      "profundidad": 115,
+      "fechaFormateada": "1979-06-22T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-115.657, 32.784]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "15/10/1979",
+      "hora": "23:17:00",
+      "profundidad": 14,
+      "fechaFormateada": "1979-10-15T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-90.857, 13.855]
+    },
+    "properties": {
+      "magnitud": 6.8,
+      "fecha": "27/10/1979",
+      "hora": "14:36:00",
+      "profundidad": 64,
+      "fechaFormateada": "1979-10-27T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-90.754, 13.782]
+    },
+    "properties": {
+      "magnitud": 6.8,
+      "fecha": "27/10/1979",
+      "hora": "21:43:26",
+      "profundidad": 65,
+      "fechaFormateada": "1979-10-27T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-88.505, 15.879]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "08/09/1980",
+      "hora": "5:45:11",
+      "profundidad": 24,
+      "fechaFormateada": "1980-09-08T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98.222, 18.174]
+    },
+    "properties": {
+      "magnitud": 7.1,
+      "fecha": "24/10/1980",
+      "hora": "14:53:36",
+      "profundidad": 65,
+      "fechaFormateada": "1980-10-24T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-102.061, 18.088]
+    },
+    "properties": {
+      "magnitud": 7.3,
+      "fecha": "25/10/1981",
+      "hora": "3:22:16",
+      "profundidad": 21,
+      "fechaFormateada": "1981-10-25T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.074, 14.276]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "04/06/1982",
+      "hora": "19:56:53",
+      "profundidad": 45,
+      "fechaFormateada": "1982-06-04T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-89.368, 13.346]
+    },
+    "properties": {
+      "magnitud": 7.3,
+      "fecha": "19/06/1982",
+      "hora": "6:21:59",
+      "profundidad": 74,
+      "fechaFormateada": "1982-06-19T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98.253, 16.424]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "06/07/1982",
+      "hora": "6:52:33",
+      "profundidad": 6,
+      "fechaFormateada": "1982-07-06T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98.339, 16.516]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "06/07/1982",
+      "hora": "10:59:40",
+      "profundidad": 19,
+      "fechaFormateada": "1982-07-06T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-95.206, 16.165]
+    },
+    "properties": {
+      "magnitud": 6.8,
+      "fecha": "24/01/1983",
+      "hora": "8:17:40",
+      "profundidad": 50,
+      "fechaFormateada": "1983-01-24T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91.956, 14.032]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "12/02/1983",
+      "hora": "3:09:04",
+      "profundidad": 35,
+      "fechaFormateada": "1983-02-12T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-102.468, 18.419]
+    },
+    "properties": {
+      "magnitud": 8.1,
+      "fecha": "19/09/1985",
+      "hora": "13:17:49",
+      "profundidad": 15,
+      "fechaFormateada": "1985-09-19T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-101.681, 17.828]
+    },
+    "properties": {
+      "magnitud": 7.6,
+      "fecha": "21/09/1985",
+      "hora": "1:37:14",
+      "profundidad": 17,
+      "fechaFormateada": "1985-09-21T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-103.045, 18.361]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "30/04/1986",
+      "hora": "7:07:19",
+      "profundidad": 22,
+      "fechaFormateada": "1986-04-30T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-115.983, 33.083]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "24/11/1987",
+      "hora": "13:15:59",
+      "profundidad": 10,
+      "fechaFormateada": "1987-11-24T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-90.557, 13.913]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "11/03/1988",
+      "hora": "14:47:13",
+      "profundidad": 74,
+      "fechaFormateada": "1988-03-11T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-110.988, 26.813]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "18/06/1988",
+      "hora": "22:49:44",
+      "profundidad": 12,
+      "fechaFormateada": "1988-06-18T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.275, 16.795]
+    },
+    "properties": {
+      "magnitud": 6.8,
+      "fecha": "25/04/1989",
+      "hora": "14:29:03",
+      "profundidad": 23,
+      "fechaFormateada": "1989-04-25T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-105.674, 18.016]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "29/08/1989",
+      "hora": "4:16:26",
+      "profundidad": 27,
+      "fechaFormateada": "1989-08-29T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.804, 14.643]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "09/03/1993",
+      "hora": "12:35:05",
+      "profundidad": 47,
+      "fechaFormateada": "1993-03-09T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.687, 14.8]
+    },
+    "properties": {
+      "magnitud": 7.2,
+      "fecha": "09/10/1993",
+      "hora": "19:12:57",
+      "profundidad": 34,
+      "fechaFormateada": "1993-10-09T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98.767, 16.767]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "24/10/1993",
+      "hora": "7:52:19",
+      "profundidad": 30,
+      "fechaFormateada": "1993-10-24T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.432, 15.984]
+    },
+    "properties": {
+      "magnitud": 6.8,
+      "fecha": "14/03/1994",
+      "hora": "20:51:26",
+      "profundidad": 160,
+      "fechaFormateada": "1994-03-14T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-101.52, 17.98]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "12/10/1994",
+      "hora": "16:17:40",
+      "profundidad": 53,
+      "fechaFormateada": "1994-10-12T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-88.372, 12.167]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "14/06/1995",
+      "hora": "11:11:50",
+      "profundidad": 27,
+      "fechaFormateada": "1995-06-14T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-104.245, 18.993]
+    },
+    "properties": {
+      "magnitud": 8,
+      "fecha": "10/09/1995",
+      "hora": "15:35:54",
+      "profundidad": 25,
+      "fechaFormateada": "1995-09-10T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98.667, 16.752]
+    },
+    "properties": {
+      "magnitud": 7.3,
+      "fecha": "14/09/1995",
+      "hora": "14:04:33",
+      "profundidad": 21,
+      "fechaFormateada": "1995-09-14T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-93.474, 16.811]
+    },
+    "properties": {
+      "magnitud": 7.1,
+      "fecha": "21/10/1995",
+      "hora": "2:38:58",
+      "profundidad": 160,
+      "fechaFormateada": "1995-10-21T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.98, 15.88]
+    },
+    "properties": {
+      "magnitud": 7.1,
+      "fecha": "25/02/1996",
+      "hora": "3:08:19",
+      "profundidad": 15,
+      "fechaFormateada": "1996-02-25T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-101.12, 17.5]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "15/07/1996",
+      "hora": "21:23:34",
+      "profundidad": 22,
+      "fechaFormateada": "1996-07-15T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-107.15, 18.96]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "05/01/1997",
+      "hora": "11:37:36",
+      "profundidad": 15,
+      "fechaFormateada": "1997-01-05T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98.26, 15.86]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "19/07/1997",
+      "hora": "14:22:09",
+      "profundidad": 15,
+      "fechaFormateada": "1997-07-19T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-102.58, 18.34]
+    },
+    "properties": {
+      "magnitud": 7.1,
+      "fecha": "01/11/1997",
+      "hora": "20:28:26",
+      "profundidad": 40,
+      "fechaFormateada": "1997-11-01T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91.93, 14.37]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "01/10/1998",
+      "hora": "8:20:06",
+      "profundidad": 55,
+      "fechaFormateada": "1998-10-01T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.539, 18.133]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "15/06/1999",
+      "hora": "15:42:04",
+      "profundidad": 63,
+      "fechaFormateada": "1999-06-15T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.004, 16.056]
+    },
+    "properties": {
+      "magnitud": 7.4,
+      "fecha": "30/09/1999",
+      "hora": "11:31:13",
+      "profundidad": 39,
+      "fechaFormateada": "1999-09-30T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-102.66, 17.99]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "09/08/2000",
+      "hora": "6:41:47",
+      "profundidad": 16,
+      "fechaFormateada": "2000-08-09T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-105.12, 18.64]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "19/05/2001",
+      "hora": "23:21:37",
+      "profundidad": 12,
+      "fechaFormateada": "2001-05-19T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-93.55, 15.43]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "16/01/2002",
+      "hora": "17:09:55",
+      "profundidad": 76,
+      "fechaFormateada": "2002-01-16T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-101.12, 16.77]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "18/04/2002",
+      "hora": "0:02:45",
+      "profundidad": 22,
+      "fechaFormateada": "2002-04-18T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-91.64, 13.36]
+    },
+    "properties": {
+      "magnitud": 6.8,
+      "fecha": "20/01/2003",
+      "hora": "20:46:54",
+      "profundidad": 17,
+      "fechaFormateada": "2003-01-20T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-104.22, 18.6]
+    },
+    "properties": {
+      "magnitud": 7.6,
+      "fecha": "21/01/2003",
+      "hora": "20:06:34",
+      "profundidad": 9,
+      "fechaFormateada": "2003-01-21T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-110.04, 26.51]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "12/03/2003",
+      "hora": "17:41:42",
+      "profundidad": 12,
+      "fechaFormateada": "2003-03-12T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.86, 14.05]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "16/10/2008",
+      "hora": "14:41:25",
+      "profundidad": 23,
+      "fechaFormateada": "2008-10-16T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-112.74, 28.85]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "03/08/2009",
+      "hora": "12:59:56",
+      "profundidad": 10,
+      "fechaFormateada": "2009-08-03T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-115.37, 32.47]
+    },
+    "properties": {
+      "magnitud": 7.2,
+      "fecha": "04/04/2010",
+      "hora": "17:40:42",
+      "profundidad": 10,
+      "fechaFormateada": "2010-04-04T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-109.41, 24.65]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "21/10/2010",
+      "hora": "12:53:11",
+      "profundidad": 8,
+      "fechaFormateada": "2010-10-21T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-94.32, 17.22]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "07/04/2011",
+      "hora": "8:11:22",
+      "profundidad": 171,
+      "fechaFormateada": "2011-04-07T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-99.96, 17.84]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "10/12/2011",
+      "hora": "19:47:25",
+      "profundidad": 54,
+      "fechaFormateada": "2011-12-10T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98.457, 16.264]
+    },
+    "properties": {
+      "magnitud": 7.5,
+      "fecha": "20/03/2012",
+      "hora": "12:02:48",
+      "profundidad": 18,
+      "fechaFormateada": "2012-03-20T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-113.164, 28.8278]
+    },
+    "properties": {
+      "magnitud": 6.8,
+      "fecha": "12/04/2012",
+      "hora": "2:15:46",
+      "profundidad": 5,
+      "fechaFormateada": "2012-04-12T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.3155, 14.0272]
+    },
+    "properties": {
+      "magnitud": 7.3,
+      "fecha": "07/11/2012",
+      "hora": "10:35:50",
+      "profundidad": 17,
+      "fechaFormateada": "2012-11-07T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-101.46, 17.011]
+    },
+    "properties": {
+      "magnitud": 7.2,
+      "fecha": "18/04/2014",
+      "hora": "9:27:21",
+      "profundidad": 18,
+      "fechaFormateada": "2014-04-18T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-100.916, 16.986]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "08/05/2014",
+      "hora": "12:00:14",
+      "profundidad": 10,
+      "fechaFormateada": "2014-05-08T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.5572, 14.6502]
+    },
+    "properties": {
+      "magnitud": 6.9,
+      "fecha": "07/07/2014",
+      "hora": "6:23:59",
+      "profundidad": 56,
+      "fechaFormateada": "2014-07-07T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-109.533, 25.0352]
+    },
+    "properties": {
+      "magnitud": 6.7,
+      "fecha": "13/09/2015",
+      "hora": "3:14:09",
+      "profundidad": 8,
+      "fechaFormateada": "2015-09-13T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-93.7005, 15.7558]
+    },
+    "properties": {
+      "magnitud": 6.6,
+      "fecha": "17/12/2015",
+      "hora": "13:49:54",
+      "profundidad": 91,
+      "fechaFormateada": "2015-12-17T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-107.15, 18.79]
+    },
+    "properties": {
+      "magnitud": 6.5,
+      "fecha": "21/01/2016",
+      "hora": "12:06:50",
+      "profundidad": 10,
+      "fechaFormateada": "2016-01-21T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-92.08, 14.77]
+    },
+    "properties": {
+      "magnitud": 7,
+      "fecha": "14/06/2017",
+      "hora": "2:29:03",
+      "profundidad": 113,
+      "fechaFormateada": "2017-06-14T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-94.11, 14.85]
+    },
+    "properties": {
+      "magnitud": 8.2,
+      "fecha": "07/09/2017",
+      "hora": "23:49:18",
+      "profundidad": 58,
+      "fechaFormateada": "2017-09-07T00:00:00Z"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-98.72, 18.4]
+    },
+    "properties": {
+      "magnitud": 7.1,
+      "fecha": "19/09/2017",
+      "hora": "13:14:40",
+      "profundidad": 33,
+      "fechaFormateada": "2017-09-19T00:00:00Z"
+    }
+  }]
+}
