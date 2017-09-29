@@ -12,14 +12,15 @@ $(document).ready(function() {
 
   /*Initialize Leaflet Map*/
   var map = new L.Map("map", {
-      center: [21.258801, -88.9129077],
-      minZoom: 5,
-      zoom: 1
+      center: [23.9916519, -102.0162908],
+      minZoom: 4,
+      maxZoom: 10,
+      zoom: 5.5
     })
-    .addLayer(new L.TileLayer("http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png"));
+    .addLayer(new L.TileLayer("https://api.mapbox.com/styles/v1/gobmx15/cj866lwt02bpi2qpbpvl6dhuv/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZ29ibXgxNSIsImEiOiJjaWZpaTl2eGtibDBjcnNtN3NqdW1wN25xIn0.yxAJmrmgXO_IaXuI1lckYA"));
 
   /* Initialize the SVG layer */
-  map._initPathRoot()
+  map._initPathRoot();
   //L.svg().addTo(map);
 
   /* Pass map SVG layer to d3 */
@@ -202,7 +203,7 @@ $(document).ready(function() {
       var currMonth = new Date(counterTime).getMonth() + 1;
       var currDay = new Date(counterTime).getDate();
 
-      document.getElementById('date').innerHTML = "28/09/2017 - " + currMonth + "/" + currDay + "/" + currDate;
+      document.getElementById('date').innerHTML = currMonth + "/" + currDay + "/" + currDate +  " - 28/09/2017";
 
     }
 
