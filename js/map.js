@@ -80,7 +80,7 @@ $(document).ready(function() {
         var fullDate = d.properties.fechaFormateada;
         var thisYear = new Date(fullDate).getFullYear();
         var currMonth = new Date(fullDate).getMonth() + 1;
-        var currDay = new Date(fullDate).getDate();
+        var currDay = new Date(fullDate).getDate() + 1;
         var magnitud = d.properties.magnitud + " Magnitud Richter";
         var hora = d.properties.hora;
         var dateString = currMonth + "/" + currDay + "/" + thisYear;
