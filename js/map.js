@@ -13,9 +13,9 @@ $(document).ready(function() {
   /*Initialize Leaflet Map*/
   var map = new L.Map("map", {
       center: [23.9916519, -102.0162908],
-      minZoom: 4,
+      minZoom: 3,
       maxZoom: 10,
-      zoom: 5.5
+      zoom: 6
     })
     .addLayer(new L.TileLayer("https://api.mapbox.com/styles/v1/gobmx15/cj869w4w917zp2srtvgh4u0k0/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZ29ibXgxNSIsImEiOiJjaWZpaTl2eGtibDBjcnNtN3NqdW1wN25xIn0.yxAJmrmgXO_IaXuI1lckYA"));
 
@@ -28,24 +28,26 @@ $(document).ready(function() {
     g = svg.append("g");
 
   /*Animation Timing Variables*/
-  var startingTime = -2207325600;
+  //var startingTime = 0;
+  var startingTime;
   var step = 50000000000;
   var maxTime;
   var timer;
   var isPlaying = false;
-  var counterTime = startingTime;
+  //var counterTime = startingTime;
+  var counterTime;
 
   var url = 'https://api.myjson.com/bins/yc29t';
 
   $.getJSON(url, function(collection) {
-    var cumEvictions = 0;
+    var magnitud = 0;
     startingTime = Date.parse(collection.features[0].properties.fechaFormateada) - 1000000;
     maxTime = Date.parse(collection.features[collection.features.length - 1].properties.fechaFormateada) + 4000000;
     counterTime = startingTime;
     collection.features.forEach(function(d) {
       d.LatLng = new L.LatLng(d.geometry.coordinates[1], d.geometry.coordinates[0]);
-      cumEvictions += d.properties.magnitud;
-      d.properties.totalEvictions = cumEvictions;
+      magnitud += d.properties.magnitud;
+      d.properties.totalMagnitud = magnitud;
     });
 
     /*Add an svg group for each data point*/
@@ -191,17 +193,17 @@ $(document).ready(function() {
 
     /*Update map counters*/
     function updateCounter(index) {
-      var totalEvictions = 0;
+      var totalMagnitud = 0;
       if (index < 1) {
 
       } else {
         var props = collection.features[index].properties;
-        totalEvictions = props.magnitud;
+        totalMagnitud = props.magnitud;
       }
-      document.getElementById('counter').innerHTML = totalEvictions + " ";
+      document.getElementById('counter').innerHTML = totalMagnitud + " ";
       currDate = new Date(counterTime).getFullYear();
       var currMonth = new Date(counterTime).getMonth() + 1;
-      var currDay = new Date(counterTime).getDate();
+      var currDay = new Date(counterTime).getDate() + 1;
 
       document.getElementById('date').innerHTML = currMonth + "/" + currDay + "/" + currDate +  " - 28/09/2017";
 
