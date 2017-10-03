@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
 
-  /*Tooltip showing address info*/
-  var tooltip = d3.select("body")
+  /*tooltipMap showing address info*/
+  var tooltipMap = d3.select("body")
     .append("div")
-    .attr("class", "tooltip")
+    .attr("class", "tooltipMap")
     .style("position", "absolute")
     .style("z-index", "60")
     .style("visibility", "hidden")
-    .text("tooltip");
+    .text("tooltipMap");
 
   /*Initialize Leaflet Map*/
   var map = new L.Map("map", {
@@ -86,19 +86,19 @@ $(document).ready(function() {
         var magnitud = d.properties.magnitud + " Magnitud Richter";
         var hora = d.properties.hora;
         var dateString = currMonth + "/" + currDay + "/" + thisYear;
-        $(".tooltip").html(d.properties.profundidad + " km de profundidad<br>" + magnitud + "<br>" + dateString + "<br>Hora: " + hora );
-        return tooltip.style("visibility", "visible");
+        $(".tooltipMap").html(d.properties.profundidad + " km de profundidad<br>" + magnitud + "<br>" + dateString + "<br>Hora: " + hora );
+        return tooltipMap.style("visibility", "visible");
       })
       .on("mousemove", function() {
-        return tooltip.style("top",
+        return tooltipMap.style("top",
           (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px");
       })
       // .on("click", function(d) {
-      //   tooltip.text(d.properties.profundidad);
-      //   return tooltip.style("visibility", "visible");
+      //   tooltipMap.text(d.properties.profundidad);
+      //   return tooltipMap.style("visibility", "visible");
       // })
       .on("mouseout", function() {
-        return tooltip.style("visibility", "hidden");
+        return tooltipMap.style("visibility", "hidden");
       });
 
     /*Initialize play button and slider*/

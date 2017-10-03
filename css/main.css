@@ -51,6 +51,7 @@ a:hover {
   left: 0;
   bottom: 0;
   width: 20vw;
+  padding: 5px 5px 5px 5px;
   /*padding: 1em;*/
 }
 
@@ -104,8 +105,9 @@ a:hover {
 
 #timeline {
   margin-bottom: 40px;
+  padding-bottom: 10px;
   width: 100%;
-  float: left;
+  /*float: left;*/
 }
 
 .timeline-element {
@@ -122,7 +124,7 @@ a:hover {
 }
 
 
-.tooltip {
+.tooltipMap {
   color: #fff;
   background-color: #000;
   opacity: 0.7;
@@ -168,4 +170,17 @@ circle {
 
 .center {
   stroke-opacity: 1;
+}
+
+/* menu acordión */
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
 }
