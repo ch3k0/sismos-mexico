@@ -18,10 +18,37 @@ $(document).ready(function() {
       zoom: 6
     })
     .addLayer(new L.TileLayer("https://api.mapbox.com/styles/v1/gobmx15/cj869w4w917zp2srtvgh4u0k0/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZ29ibXgxNSIsImEiOiJjaWZpaTl2eGtibDBjcnNtN3NqdW1wN25xIn0.yxAJmrmgXO_IaXuI1lckYA"));
+  var legend = L.control({
+    position: 'topright'
+  });
 
+  legend.onAdd = function(map) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+      grades = [6, 6.5, 7.5],
+      labels = [],
+      from, to;
+    for (var i = 0; i < grades.length; i++) {
+      from = grades[i];
+      to = grades[i + 1];
+      labels.push(
+        '<i style="background:' + obtieneColores(from + 0.5) + '"></i> ' +
+        from + (to ? '&ndash;' + to : '+'));
+    }
+    div.innerHTML = labels.join('<br>');
+    return div;
+  };
+
+  legend.addTo(map);
   /* Initialize the SVG layer */
   map._initPathRoot();
   //L.svg().addTo(map);
+
+  function obtieneColores(d) {
+    return d > 7.5 ? '#FF0000' :
+      d > 6.5 ? '#FF7F00' :
+      '#FFFF00';
+  }
 
   /* Pass map SVG layer to d3 */
   var svg = d3.select("#map").select("svg"),
@@ -37,7 +64,7 @@ $(document).ready(function() {
   //var counterTime = startingTime;
   var counterTime;
 
-  var url = 'https://api.myjson.com/bins/yc29t';
+  var url = 'https://api.myjson.com/bins/11hrpp';
 
   $.getJSON(url, function(collection) {
     var magnitud = 0;
@@ -54,30 +81,32 @@ $(document).ready(function() {
     var node = g.selectAll(".node").data(collection.features).enter().append("g");
     var feature = node.append("circle")
       .attr("r", function(d) {
-        return d.properties.magnitud*2;
+        return d.properties.magnitud * 2.5;
       })
       .attr("class", "center")
       .style("stroke", function(d) {
-        if (d.properties.magnitud <= 6.5) {
+        if (d.properties.id === 30 || d.properties.id == 50) {
+          return "#000";
+        } else if (d.properties.magnitud <= 6.5) {
           return "#FFFF00";
         } else if (d.properties.magnitud <= 7.5) {
           return "#FF7F00";
-        }
-        else  {
+        } else {
           return "#FF0000";
         }
       })
       .style("fill", function(d) {
-        if (d.properties.magnitud <= 6.5) {
+        if (d.properties.id === 30 || d.properties.id == 50) {
+          return "#000";
+        } else if (d.properties.magnitud <= 6.5) {
           return "#FFFF00";
         } else if (d.properties.magnitud <= 7.5) {
           return "#FF7F00";
-        }
-        else  {
+        } else {
           return "#FF0000";
         }
       });
-    /*show node info on mouseover*/
+    /* TOOLTIPS */
     node.on("mouseover", function(d) {
         var fullDate = d.properties.fechaFormateada;
         var thisYear = new Date(fullDate).getFullYear();
@@ -86,7 +115,7 @@ $(document).ready(function() {
         var magnitud = d.properties.magnitud + " Magnitud Richter";
         var hora = d.properties.hora;
         var dateString = currMonth + "/" + currDay + "/" + thisYear;
-        $(".tooltipMap").html(d.properties.profundidad + " km de profundidad<br>" + magnitud + "<br>" + dateString + "<br>Hora: " + hora );
+        $(".tooltipMap").html(d.properties.profundidad + " km de profundidad<br>" + magnitud + "<br>" + dateString + "<br>Hora: " + hora);
         return tooltipMap.style("visibility", "visible");
       })
       .on("mousemove", function() {
@@ -145,43 +174,54 @@ $(document).ready(function() {
       // console.log(JSON.stringify(filtered[0]));
       // updateCounter(filtered[0].length-1);
       filtered.filter(function(d) {
-
           return Date.parse(d.properties.fechaFormateada) > counterTime - step
         })
         .append("circle")
         .attr("r", 4)
-        .style("fill", "red")
-        .style("fill-opacity", 0.8)
-        .transition()
-
-        .duration(1000)
-        .ease(Math.sqrt)
-        .attr("r", function(d) {
-          var i = 2;
-          if (d.properties.profundidad <= 20) {
-            return 60*i;
-          } else if (d.properties.profundidad <= 40) {
-            return 50*i;
-          }
-          else if (d.properties.profundidad <= 80) {
-            return 40*i;
-          }
-          else if (d.properties.profundidad <= 160) {
-            return 30*i;
-          }
-          else{
-            return 20*i;;
-          }
-          //return (100/(d.properties.profundidad+0.1))^2;
-          //return d.properties.magnitud * 30
-        })
+        //.style("fill", "white")
         .style("fill", function(d) {
           if (d.properties.magnitud <= 6.5) {
             return "#FFFF00";
           } else if (d.properties.magnitud <= 7.5) {
             return "#FF7F00";
+          } else {
+            return "#FF0000";
           }
-          else  {
+        })
+        .style("fill-opacity", 0.8)
+        .transition()
+        .duration(1000)
+        .ease(Math.sqrt)
+        .attr("r", function(d) {
+          var i = 2;
+          if (d.properties.profundidad <= 20) {
+            return 60 * i;
+          } else if (d.properties.profundidad <= 40) {
+            return 50 * i;
+          } else if (d.properties.profundidad <= 80) {
+            return 40 * i;
+          } else if (d.properties.profundidad <= 160) {
+            return 30 * i;
+          } else {
+            return 20 * i;;
+          }
+          //return (100/(d.properties.profundidad+0.1))^2;
+          //return d.properties.magnitud * 30
+        })
+        .style("fill", function(d) {
+          if (d.properties.id === 30) {
+            $('#accordion').find('.collapse.in').collapse('hide');
+            $('#infoSismo3').collapse("show");
+            return "#FF0000";
+          } else if (d.properties.id === 50) {
+            $('#accordion').find('.collapse.in').collapse('hide');
+            $("#infoSismo2").collapse('show');
+            return "#FF0000";
+          } else if (d.properties.magnitud <= 6.5) {
+            return "#FFFF00";
+          } else if (d.properties.magnitud <= 7.5) {
+            return "#FF7F00";
+          } else {
             return "#FF0000";
           }
         })
@@ -205,7 +245,7 @@ $(document).ready(function() {
       var currMonth = new Date(counterTime).getMonth() + 1;
       var currDay = new Date(counterTime).getDate() + 1;
 
-      document.getElementById('date').innerHTML = currMonth + "/" + currDay + "/" + currDate +  " - 28/09/2017";
+      document.getElementById('date').innerHTML = currMonth + "/" + currDay + "/" + currDate + " - 28/09/2017";
 
     }
 
@@ -214,7 +254,6 @@ $(document).ready(function() {
       counterTime = $("#slider").slider("value");
       if (counterTime >= maxTime) {
         $("#slider").slider("value", startingTime);
-
       }
       isPlaying = true;
       timer = setInterval(function() {
@@ -251,7 +290,7 @@ $(document).ready(function() {
         playAnimation();
       }
     }
-  }); // termina inicia
+  }); // termina GETJSON
 
   /*Show info about on mouseover*/
   $(".popup").hide();
