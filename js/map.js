@@ -1,6 +1,4 @@
 $(document).ready(function() {
-
-
   /*tooltipMap showing address info*/
   var tooltipMap = d3.select("body")
     .append("div")
@@ -55,7 +53,7 @@ $(document).ready(function() {
     g = svg.append("g");
 
   /*Animation Timing Variables*/
-  //var startingTime = 0;
+  var startingTime = 0;
   var startingTime;
   var step = 50000000000;
   var maxTime;
