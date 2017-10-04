@@ -33,9 +33,9 @@ $(document).ready(function() {
       to = grades[i + 1];
       labels.push(
         '<i style="background:' + obtieneColores(from + 0.5) + '"></i> ' +
-        from + (to ? '&ndash;' + to : '+'));
+        from + (to ? ' &ndash; ' + to : '+'));
     }
-    div.innerHTML = labels.join('<br>');
+    div.innerHTML = "<b>Magnitud:</b><br>" + labels.join('<br>');
     return div;
   };
 
