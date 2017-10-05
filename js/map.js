@@ -110,7 +110,7 @@ $(document).ready(function() {
         var currDay = new Date(fullDate).getDate() + 1;
         var magnitud = d.properties.magnitud;
         var hora = d.properties.hora;
-        var dateString = currMonth + "/" + currDay + "/" + thisYear;
+        var dateString = currDay + "/" + currMonth + "/" + thisYear;
         $(".tooltipMap").html("<b>Profundidad:</b> " + d.properties.profundidad + " km<br><b>Magnitud:</b> " + magnitud + "<br><b>Fecha:</b> " + dateString + "<br><b>Hora:</b> " + hora);
         return tooltipMap.style("visibility", "visible");
       })
