@@ -45,7 +45,7 @@ $(document).ready(function() {
   function obtieneColores(d) {
     return d > 7.5 ? '#FF0000' :
       d > 6.5 ? '#FF7F00' :
-      '#FFFF00';
+      '#FFC30F';
   }
 
   /* Pass map SVG layer to d3 */
@@ -86,7 +86,7 @@ $(document).ready(function() {
         if (d.properties.id === 158 || d.properties.id == 206 || d.properties.id == 110 || d.properties.id == 144 || d.properties.id == 196) {
           return "#000";
         } else if (d.properties.magnitud <= 6.5) {
-          return "#FFFF00";
+          return "#FFC30F";
         } else if (d.properties.magnitud <= 7.5) {
           return "#FF7F00";
         } else {
@@ -95,7 +95,7 @@ $(document).ready(function() {
       })
       .style("fill", function(d) {
         if (d.properties.magnitud <= 6.5) {
-          return "#FFFF00";
+          return "#FFC30F";
         } else if (d.properties.magnitud <= 7.5) {
           return "#FF7F00";
         } else {
@@ -179,7 +179,7 @@ $(document).ready(function() {
           if (d.properties.id === 158 || d.properties.id == 206 || d.properties.id == 110 || d.properties.id == 144 || d.properties.id == 196) {
             return "#000";
           } else if (d.properties.magnitud <= 6.5) {
-            return "#FFFF00";
+            return "#FFC30F";
           } else if (d.properties.magnitud <= 7.5) {
             return "#FF7F00";
           } else {
@@ -231,7 +231,7 @@ $(document).ready(function() {
             $("#infoSismo5").collapse('show');
             return "#000";
           } else if (d.properties.magnitud <= 6.5) {
-            return "#FFFF00";
+            return "#FFC30F";
           } else if (d.properties.magnitud <= 7.5) {
             return "#FF7F00";
           } else {

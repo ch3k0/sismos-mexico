@@ -121,11 +121,12 @@ path {
 
 circle {
   stroke-width: 1px;
-  fill-opacity: 0.5;
+  fill-opacity: 0.7;
+  stroke-opacity: 1;
 }
 
 .center {
-  stroke-opacity: 1;
+  stroke-opacity: 10;
 }
 
 
@@ -205,7 +206,7 @@ circle {
   height: 18px;
   float: left;
   margin-right: 10px;
-  opacity: 0.6;
+  opacity: 0.8;
   border-radius: 10px;
 }
 
