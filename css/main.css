@@ -1,14 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif !important;
   margin: 0;
   padding: 0;
-}
-
-.wrapper {
-  display: block;
-  padding: 4px 30px 0 30px;
-  font-size: 16px;
 }
 
 #map {
@@ -25,8 +19,9 @@ body {
   left: 0;
   bottom: 0;
   width: 20vw;
-  padding: 5px 5px 5px 5px;
+  padding: 5px 15px 5px 15px;
   /*padding: 1em;*/
+  overflow-y: auto;
 }
 
 .leaflet-bottom.leaflet-left {
@@ -40,12 +35,13 @@ body {
   margin-bottom: 15px;
 }
 
-.context {
+
+/*.context {
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
   color: #999;
   padding: 10px 0 0 0;
-}
+}*/
 
 .subheader {
   border-bottom: 1px solid #ddd;
@@ -71,6 +67,7 @@ body {
 #timeline {
   margin-bottom: 40px;
   padding-bottom: 10px;
+  padding-top: 10px;
   width: 100%;
   /*float: left;*/
 }
@@ -78,13 +75,6 @@ body {
 .timeline-element {
   display: block;
   float: left;
-}
-
-#evictionCount {
-  height: 60px;
-  width: 400px;
-  display: block;
-  float: right;
 }
 
 .tooltipMap {
@@ -106,7 +96,8 @@ path {
 
 #counter {
   color: #000000;
-  font-family: "Open Sans", sans-serif;;
+  font-family: "Open Sans", sans-serif;
+  ;
   letter-spacing: -1px;
 }
 
@@ -115,15 +106,17 @@ path {
   height: 30px;
   cursor: pointer;
   vertical-align: middle;
-  background-image: url('../images/pause.png');
+  align-content: center;
+  /*background-image: url('../images/pause.png');*/
+  font-size: 25px;
 }
 
 #slider {
-  width: 65%;
+  width: 80%;
   height: 14px;
   top: 8px;
   z-index: 20;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 circle {
@@ -214,4 +207,18 @@ circle {
   margin-right: 10px;
   opacity: 0.6;
   border-radius: 10px;
+}
+
+/*.ui-slider .ui-slider-handle {
+  width: 2em;
+  left: -.6em;
+  text-decoration: none;
+  text-align: center;
+  height: 15px;
+  width: 5px;
+  padding-left: 5px;
+}*/
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.2em !important;
 }

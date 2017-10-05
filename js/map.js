@@ -53,9 +53,9 @@ $(document).ready(function() {
     g = svg.append("g");
 
   /*Animation Timing Variables*/
-  var startingTime = 0;
+  // var startingTime = 0;
   var startingTime;
-  var step = 50000000000;
+  var step = 30000000000;
   var maxTime;
   var timer;
   var isPlaying = false;
@@ -83,7 +83,7 @@ $(document).ready(function() {
       })
       .attr("class", "center")
       .style("stroke", function(d) {
-        if (d.properties.id === 30 || d.properties.id == 50) {
+        if (d.properties.id === 158 || d.properties.id == 206 || d.properties.id == 110 || d.properties.id == 144 || d.properties.id == 196) {
           return "#000";
         } else if (d.properties.magnitud <= 6.5) {
           return "#FFFF00";
@@ -94,9 +94,7 @@ $(document).ready(function() {
         }
       })
       .style("fill", function(d) {
-        if (d.properties.id === 30 || d.properties.id == 50) {
-          return "#000";
-        } else if (d.properties.magnitud <= 6.5) {
+        if (d.properties.magnitud <= 6.5) {
           return "#FFFF00";
         } else if (d.properties.magnitud <= 7.5) {
           return "#FF7F00";
@@ -110,10 +108,10 @@ $(document).ready(function() {
         var thisYear = new Date(fullDate).getFullYear();
         var currMonth = new Date(fullDate).getMonth() + 1;
         var currDay = new Date(fullDate).getDate() + 1;
-        var magnitud = d.properties.magnitud + " Magnitud Richter";
+        var magnitud = d.properties.magnitud;
         var hora = d.properties.hora;
         var dateString = currMonth + "/" + currDay + "/" + thisYear;
-        $(".tooltipMap").html(d.properties.profundidad + " km de profundidad<br>" + magnitud + "<br>" + dateString + "<br>Hora: " + hora);
+        $(".tooltipMap").html("<b>Profundidad:</b> " + d.properties.profundidad + " km<br><b>Magnitud:</b> " + magnitud + "<br><b>Fecha:</b> " + dateString + "<br><b>Hora:</b> " + hora);
         return tooltipMap.style("visibility", "visible");
       })
       .on("mousemove", function() {
@@ -178,7 +176,9 @@ $(document).ready(function() {
         .attr("r", 4)
         //.style("fill", "white")
         .style("fill", function(d) {
-          if (d.properties.magnitud <= 6.5) {
+          if (d.properties.id === 158 || d.properties.id == 206 || d.properties.id == 110 || d.properties.id == 144 || d.properties.id == 196) {
+            return "#000";
+          } else if (d.properties.magnitud <= 6.5) {
             return "#FFFF00";
           } else if (d.properties.magnitud <= 7.5) {
             return "#FF7F00";
@@ -192,7 +192,9 @@ $(document).ready(function() {
         .ease(Math.sqrt)
         .attr("r", function(d) {
           var i = 2;
-          if (d.properties.profundidad <= 20) {
+          if (d.properties.id === 158 || d.properties.id == 206 || d.properties.id == 110 || d.properties.id == 144 || d.properties.id == 196) {
+            return 90 * i;
+          } else if (d.properties.profundidad <= 20) {
             return 60 * i;
           } else if (d.properties.profundidad <= 40) {
             return 50 * i;
@@ -207,14 +209,27 @@ $(document).ready(function() {
           //return d.properties.magnitud * 30
         })
         .style("fill", function(d) {
-          if (d.properties.id === 30) {
+          // d.properties.id === 158 || d.properties.id == 206 || d.properties.id == 110 || d.properties.id == 144 || d.properties.id == 196
+          if (d.properties.id === 158) {
             $('#accordion').find('.collapse.in').collapse('hide');
-            $('#infoSismo3').collapse("show");
-            return "#FF0000";
-          } else if (d.properties.id === 50) {
+            $('#infoSismo1').collapse("show");
+            return "#000";
+          } else if (d.properties.id === 206) {
             $('#accordion').find('.collapse.in').collapse('hide');
             $("#infoSismo2").collapse('show');
-            return "#FF0000";
+            return "#000";
+          } else if (d.properties.id === 110) {
+            $('#accordion').find('.collapse.in').collapse('hide');
+            $("#infoSismo3").collapse('show');
+            return "#000";
+          } else if (d.properties.id === 144) {
+            $('#accordion').find('.collapse.in').collapse('hide');
+            $("#infoSismo4").collapse('show');
+            return "#000";
+          } else if (d.properties.id === 196) {
+            $('#accordion').find('.collapse.in').collapse('hide');
+            $("#infoSismo5").collapse('show');
+            return "#000";
           } else if (d.properties.magnitud <= 6.5) {
             return "#FFFF00";
           } else if (d.properties.magnitud <= 7.5) {
@@ -238,13 +253,11 @@ $(document).ready(function() {
         var props = collection.features[index].properties;
         totalMagnitud = props.magnitud;
       }
-      document.getElementById('counter').innerHTML = totalMagnitud + " ";
+      document.getElementById('counter').innerHTML = "Magnitud: " + totalMagnitud;
       currDate = new Date(counterTime).getFullYear();
       var currMonth = new Date(counterTime).getMonth() + 1;
       var currDay = new Date(counterTime).getDate() + 1;
-
       document.getElementById('date').innerHTML = currMonth + "/" + currDay + "/" + currDate + " - 28/09/2017";
-
     }
 
     /*Update slider*/
@@ -266,7 +279,8 @@ $(document).ready(function() {
 
     function stopAnimation() {
       clearInterval(timer);
-      $('#play').css('background-image', 'url(images/play.png)');
+      //$('#play').css('background-image', 'url(images/play.png)');
+      $('#play').removeClass( "glyphicon-pause" ).addClass( "glyphicon-play" );
       isPlaying = false;
     }
 
@@ -284,7 +298,8 @@ $(document).ready(function() {
       if (isPlaying) {
         stopAnimation();
       } else {
-        $('#play').css('background-image', 'url(images/pause.png)');
+        //$('#play').css('background-image', 'url(images/pause.png)');
+        $('#play').removeClass( "glyphicon-play" ).addClass( "glyphicon-pause" );
         playAnimation();
       }
     }

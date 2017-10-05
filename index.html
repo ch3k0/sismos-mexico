@@ -26,25 +26,28 @@
 <body>
   <div id="map"></div>
   <div class="sidepanel">
-    <div class="wrapper">
+
       <h1>Sismos en México</h1>
-      <div>
-        <h1>Magnitud:</h1>
-        <h3 id="runningTotal"><div id="counter"></div>
-      <span id="date"> </span> </h3></div>
+      <blockquote>
+        <p>Time-lapse de los sismos registrados en México desde el año 1900 con una magnitud en la escala de Ritcher superior a 6.</p>
+      </blockquote>
+        <h3><div id="counter"></div></h3>
+        <span id="date"> </span>
       <div id="timeline">
-        <div id="play" class="timeline-element"></div>
+        <!-- <div id="play" class="timeline-element"></div> -->
+        <span id="play" class="glyphicon glyphicon-pause timeline-element" aria-hidden="true"></span>
         <div id="slider" class="timeline-element"></div>
       </div>
-    </div>
 
+    <h4>Los peores sismos en la CDMX:</h4>
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
     <div class="panel panel-default">
       <div class="panel-heading" role="tab" id="headingOne">
         <h4 class="panel-title">
           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#infoSismo1" aria-expanded="false" aria-controls="infoSismo1">
-          Sismo #1
+          19 de septiembre de 1985
         </a>
+        <!-- <i>M</i><sub>L</sub> -->
       </h4>
       </div>
       <div id="infoSismo1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
@@ -59,7 +62,7 @@
       <div class="panel-heading" role="tab" id="headingTwo">
         <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#infoSismo2" aria-expanded="false" aria-controls="infoSismo2">
-          Sismo #2
+          7 de septiembre de 2017
         </a>
       </h4>
       </div>
@@ -75,7 +78,7 @@
       <div class="panel-heading" role="tab" id="headingThree">
         <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#infoSismo3" aria-expanded="false" aria-controls="infoSismo3">
-          Sismo #3
+          28 de julio de 1957
         </a>
       </h4>
       </div>
@@ -91,7 +94,7 @@
       <div class="panel-heading" role="tab" id="headingThree">
         <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#infoSismo4" aria-expanded="false" aria-controls="infoSismo4">
-          Sismo #4
+          14 de marzo de 1979
         </a>
       </h4>
       </div>
@@ -107,7 +110,7 @@
       <div class="panel-heading" role="tab" id="headingThree">
         <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#infoSismo5" aria-expanded="false" aria-controls="infoSismo5">
-          Sismo #5
+          20 de marzo de 2012
         </a>
       </h4>
       </div>
