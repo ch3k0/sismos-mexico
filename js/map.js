@@ -15,7 +15,7 @@ $(document).ready(function() {
       maxZoom: 10,
       zoom: 6
     })
-    .addLayer(new L.TileLayer("https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v10/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZ29ibXgxNSIsImEiOiJjaWZpaTl2eGtibDBjcnNtN3NqdW1wN25xIn0.yxAJmrmgXO_IaXuI1lckYA"));
+    .addLayer(new L.TileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw", {id: 'mapbox.light'}));
   var legend = L.control({
     position: 'topright'
   });
