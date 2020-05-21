@@ -62,7 +62,7 @@ $(document).ready(function() {
   //var counterTime = startingTime;
   var counterTime;
 
-  var url = 'https://api.myjson.com/bins/11hrpp';
+  var url = 'https://raw.githubusercontent.com/ch3k0/sismos-mexico/master/data/sismosMexico.geojson';
 
   $.getJSON(url, function(collection) {
     var magnitud = 0;
